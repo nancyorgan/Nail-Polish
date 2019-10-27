@@ -4,8 +4,10 @@ library("rgl")
 library("misc3d")
 library("RSelenium")
 library("V8")
+install.packages("rimage")
 
 #Rimagepal
+test
 
 url <- list(
   Revlon = 'https://www.revlon.com/nails/nail-color/revlon-nail-enamel?shade=adventurous',
