@@ -2,12 +2,10 @@ library('rvest')
 library("e1071")
 library("rgl")
 library("misc3d")
-library("RSelenium")
-library("V8")
-install.packages("rimage")
+library("data.table")
+library("RImagePalette")
+# install_github("andreacirilloac/paletter")
 
-#Rimagepal
-test
 
 url <- list(
   Revlon = 'https://www.revlon.com/nails/nail-color/revlon-nail-enamel?shade=adventurous',
@@ -15,7 +13,7 @@ url <- list(
   Maybelline2 = 'https://www.maybelline.com.au/nail-makeup/nail-color/super-stay-7-days',
   Orosa = 'https://orosabeauty.com/products/pre-fall-set',
   NARS = 'https://www.narscosmetics.com/USA/milos-nail-polish/0607845036456.html?gclid=Cj0KCQjwl8XtBRDAARIsAKfwtxBiqFJw74nAgsr_bolu-Uojx7H7jBq-E6rET3DwUlBgaMudndeL96EaAkBtEALw_wcB&gclsrc=aw.ds',
-  Essie = 'https://www.essie.com/nail-polish/by-color/reds?selectedProduct=0',
+  Essie = 'https://www.essie.com/nail-polish/by-color/',
   Dior = 'https://www.dior.com/en_us/products/beauty-Y0002959_F000355257-dior-vernis-couture-color-gel-shine-long-wear-nail-lacquer?gclid=Cj0KCQjwl8XtBRDAARIsAKfwtxAvCXrpqEGt2MfLk3Ta3xJMNDGAExmKGCkqlJ_RYPl-16DUg58BdpwaAj1pEALw_wcB&gclsrc=aw.ds',
   Chanel = 'https://www.chanel.com/us/makeup/p/159705/le-vernis-longwear-nail-colour/',
   YSL = 'https://www.yslbeautyus.com/makeup/nails/la-laque-couture/1023YSL.html',
@@ -84,34 +82,69 @@ narsData = nars(url$NARS)
 ######################################################################
 ######################################################################
 essie = function(url){
+
+  groups = c("sheers", "whites", "nudes", "pinks", "corals", "reds", "purples", 
+             "blues", "greens", "yellows", "grays", "metallics-and-glitters")
+  allData = list()
+  for(i in 1:length(groups)){
+    webpage = read_html(paste0(url, groups[i], "?selectedProduct=0") )
   
-  webpage <- read_html(url$Essie)
-  
-  xpathName = '//*[@id="main"]/div[3]/div[3]/div/div/div[1]/div[1]/img'
-  
-  library(rvest)
-  library(V8)
-  
-  webpage <- read_html(url$Essie)
+    names = webpage %>% html_nodes('h3') %>% html_nodes('span')
+    names = gsub("<span>", "", names)
+    names = gsub("</span>", "", names)
   
 
-  script_data <- html_nodes(webpage, "script")[[3]]
-  dat <- gsub("\\$\\(function.*$", "", html_text(script_data))
+    colors = webpage %>% 
+      html_nodes(css = "div.product-list-item__image") %>% 
+      html_nodes("img") %>% 
+      html_attr("src")
+    
+    palette = NULL
+    for(j in 1:length(colors)){
+      tryCatch(
+        expr = {
+          temp.file = tempfile(fileext = ".jpg")
+          download.file(paste0("https://www.essie.com/", colors[j]), destfile = temp.file)
+          img <- jpeg::readJPEG(temp.file)
+          # display_image(img)
+          # scales::show_col(image_palette(img, n=10))
+          palette[j] = image_palette(img, n=1)
+          unlink(temp.file)
+        },
+        error = function(e){
+          message("* Caught an error on itertion ", j)
+          print(e)
+        }
+      )
+    }
+    
+    
+    # for (indx in 1:nrow(df_nested)) {
+    #   tryCatch(
+    #     expr = {
+    #       df_nested[[indx, "data"]] <-  df_nested[[indx, "data"]] %>% 
+    #         convert_gear_to_factors() %>% 
+    #         transform_response_to_log()
+    #       message("Iteration ", indx, " successful.")
+    #     },
+    #     error = function(e){
+    #       message("* Caught an error on itertion ", indx)
+    #       print(e)
+    #     }
+    #   )
+    # }
+    
+    allData[[i]] = data.frame(group = groups[i], name = names, palette = palette)
   
-  ctx <- v8()
-  ctx$eval(dat)
-  head(ctx$get("accounts"))
-  
-  
-  names = webpage %>% html_nodes(xpath = xpathName) %>% html_attr("href")
-  
-  for(i in 1:length(colors)){
-    colors[i] = regmatches(colors[i], regexpr("#.{1,6}", colors[i]))
   }
-  return(data.frame(colors, names))
+  allData = rbindlist(allData)
+  return(allData)
 }
 
-narsData = nars(url$NARS)
+# essieData = essie(url$Essie)
+
+write.csv(essieData, "/Users/nancyorgan/Desktop/essiedata.csv", row.names = FALSE)
+
 
 ######################################################################
 ######################################################################
@@ -130,7 +163,7 @@ show3dPolish = function(colors, clusters){
   mydata = splitColor(colors)
   mydata$cluster = kmeans(as.matrix(mydata[,1:3]), clusters)$cluster
   open3d()
-  with(mydata, plot3d(r, g, b, type="s", col = color))
+  with(mydata, plot3d(r, g, b, type="p", col = color, radius = 10))
   
   for(i in 1:length(unique(mydata$cluster))){
     dat = mydata[mydata$cluster == i,]
@@ -150,3 +183,9 @@ show3dPolish = function(colors, clusters){
 show3dPolish(revlonData$colors, 7)
 show3dPolish(maybellineData$colors, 2)
 show3dPolish(narsData$colors, 3)
+show3dPolish(essieData$palette[!is.na(essieData$palette)], 20)
+
+
+
+
+
