@@ -331,6 +331,7 @@ uoData = uoData %>% select(colors, names)
 
 total = list(revlonData, maybellineData, narsData, essieData, diorData, uoData)
 total = rbindlist(total)
+write.csv(total, "total.csv", row.names = FALSE)
 lapply(total, function(x){names(x)})
 
 
