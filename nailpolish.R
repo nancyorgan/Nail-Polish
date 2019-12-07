@@ -5,6 +5,8 @@ library("misc3d")
 library("data.table")
 library("RImagePalette")
 library("png")
+library("magick")
+library("jpeg")
 # install_github("andreacirilloac/paletter")
 
 
@@ -17,11 +19,12 @@ url <- list(
   Dior = 'https://www.dior.com/en_us/products/beauty-Y0002959_F000355257-dior-vernis-couture-color-gel-shine-long-wear-nail-lacquer?gclid=Cj0KCQjwl8XtBRDAARIsAKfwtxAvCXrpqEGt2MfLk3Ta3xJMNDGAExmKGCkqlJ_RYPl-16DUg58BdpwaAj1pEALw_wcB&gclsrc=aw.ds',
   Chanel = 'https://www.chanel.com/us/makeup/p/159705/le-vernis-longwear-nail-colour/',
   YSL = 'https://www.yslbeautyus.com/makeup/nails/la-laque-couture/1023YSL.html',
+  YSL2 = "https://www.yslbeautyus.com/makeup/nails/la-laque-couture-fall-look-2019/113YSL.html?cgid=makeup-nails&dwvar_113YSL_color=118%20-%20Marron%20Sulfureux#start=3&cgid=makeup-nails",
   Urban = 'https://www.urbanoutfitters.com/shop/uo-nail-polish',
   Jhannah = 'https://jhannahjewelry.com/collections/nailpolish',
   Louboutin = 'http://us.christianlouboutin.com/us_en/pluminette.html',
-  Orosa = 'https://orosabeauty.com/products/pre-fall-set',
-  )
+  Orosa = 'https://orosabeauty.com/products/pre-fall-set'
+)
 
 ######################################################################
 ######################################################################
@@ -41,7 +44,7 @@ revlon = function(url){
 }
 
 revlonData = revlon(url$Revlon)
-
+# write.csv(revlonData, "/Users/nancyorgan/Documents/Nail-Polish/revlonData.csv", row.names = FALSE)
 ######################################################################
 ######################################################################
 maybelline = function(url){
@@ -61,14 +64,14 @@ maybellineData = rbind(
   maybelline(url$Maybelline),
   maybelline(url$Maybelline2)
 )
-
+#write.csv(maybellineData, "/Users/nancyorgan/Documents/Nail-Polish/maybellineData.csv", row.names = FALSE)
 ######################################################################
 ######################################################################
 nars = function(url){
   webpage <- read_html(url)
   xpathColor = '//*[@id="pdp-swatches"]/li/a/div'
   xpathName = '//*[@id="pdp-swatches"]/li/a/img'
-
+  
   colors =  webpage %>% html_nodes(xpath = xpathColor) %>% html_attr("style")
   names = webpage %>% html_nodes(xpath = xpathName) %>% html_attr("alt")
   
@@ -79,22 +82,22 @@ nars = function(url){
 }
 
 narsData = nars(url$NARS)
-
+#write.csv(narsData, "/Users/nancyorgan/Documents/Nail-Polish/narsData.csv", row.names = FALSE)
 ######################################################################
 ######################################################################
 essie = function(url){
-
+  
   groups = c("sheers", "whites", "nudes", "pinks", "corals", "reds", "purples", 
              "blues", "greens", "yellows", "grays", "metallics-and-glitters")
   allData = list()
   for(i in 1:length(groups)){
     webpage = read_html(paste0(url, groups[i], "?selectedProduct=0") )
-  
+    
     names = webpage %>% html_nodes('h3') %>% html_nodes('span')
     names = gsub("<span>", "", names)
     names = gsub("</span>", "", names)
-  
-
+    
+    
     colors = webpage %>% 
       html_nodes(css = "div.product-list-item__image") %>% 
       html_nodes("img") %>% 
@@ -120,7 +123,7 @@ essie = function(url){
     }
     
     allData[[i]] = data.frame(group = groups[i], name = names, palette = palette)
-  
+    
   }
   allData = rbindlist(allData)
   return(allData)
@@ -128,39 +131,86 @@ essie = function(url){
 
 # essieData = essie(url$Essie)
 
+names(essieData) = c("group", "names", "colors")
 # write.csv(essieData, "/Users/nancyorgan/Desktop/essiedata.csv", row.names = FALSE)
-
 ######################################################################
 ######################################################################
 
 dior = function(url){
   
-    webpage = read_html(url$Dior)
+  webpage = read_html(url)
+  
+  names = webpage %>% html_nodes(css = 'label.sr-only') 
+  names = gsub("</label>", "", names)
+  names = gsub("^<label.*>", "", names)
+  names = gsub("^[0-9]{3}.", "", names)
+  
+  colors = webpage %>% 
+    html_nodes(css = "span.swatch") %>% 
+    html_nodes("img") %>% 
+    html_attr("src")
+  
+  palette = NULL
+  for(i in 1:length(colors)){
+    tryCatch(
+      expr = {
+        extension = substr(colors[i], nchar(colors[i]) - 3, nchar(colors[i]))
+        temp.file = ifelse(extension == ".png", tempfile(fileext = ".png"),
+                           ifelse(extension == ".jpg", tempfile(fileext = ".jpg"),
+                                  temptile(fileext = extension)))
+        
+        download.file(paste0("https://www.dior.com/", colors[i]), destfile = temp.file)
+        img = image_write(image_read(temp.file), temp.file, format = "jpeg")
+        img = readJPEG(temp.file)
+        display_image(img)
+        # img = ifelse(extension == ".png", readPNG(temp.file), readPNG(temp.file))
+        palette[i] = image_palette(img, n=1)
+        unlink(temp.file)
+      },
+      error = function(e){
+        message("* Caught an error on itertion ", i)
+        print(e)
+      }
+    )
+  }
+  
+  allData = data.frame(names = names, colors = palette)
+  return(allData)
+}
+
+diorData = dior(url$Dior)
+#write.csv(diorData, "/Users/nancyorgan/Documents/Nail-Polish/diorData.csv", row.names = FALSE)
+######################################################################
+######################################################################
+
+urbanOutfitters = function(){
+  
+  urls = c("https://www.urbanoutfitters.com/shop/uo-mood-nail-polish",
+           "https://www.urbanoutfitters.com/shop/uo-neutrals-collection-nail-polish0611299-006",
+           "https://www.urbanoutfitters.com/shop/uo-shimmer-nail-polish",
+           "https://www.urbanoutfitters.com/shop/uo-nail-polish",
+           "https://www.urbanoutfitters.com/shop/uo-classics-collection-nail-polish-001")
+  
+  allData = list()
+  for(j in 1:length(urls)){
+    webpage = read_html(urls[j])
     
-    names = webpage %>% html_nodes(css = 'label.sr-only') 
-    names = gsub("</label>", "", names)
-    names = gsub("^<label.*>", "", names)
-    names = gsub("^[0-9]{3}.", "", names)
+    names = webpage %>% 
+      html_nodes(css = '.o-list-swatches__swatch') %>% 
+      html_attr("title")
     
     colors = webpage %>% 
-      html_nodes(css = "span.swatch") %>% 
-      html_nodes("img") %>% 
+      html_nodes(css = '.o-list-swatches__swatch') %>% 
       html_attr("src")
     
     palette = NULL
     for(i in 1:length(colors)){
       tryCatch(
         expr = {
-          extension = substr(colors[i], nchar(colors[i]) - 3, nchar(colors[i]))
-          temp.file = ifelse(extension == ".png", 
-                             tempfile(fileext = ".png"),
-                             tempfile(fileext = ".jpg"))
-        
-          download.file(paste0("https://www.dior.com/", colors[i]), destfile = temp.file)
-          img = ifelse(extension == ".png", 
-                       readPNG(temp.file),
-                       readJPEG(temp.file))
-          
+          temp.file = tempfile(fileext = ".jpg")
+          download.file(colors[i], destfile = temp.file)
+          img = readJPEG(temp.file)
+          display_image(img)
           palette[i] = image_palette(img, n=1)
           unlink(temp.file)
         },
@@ -170,16 +220,70 @@ dior = function(url){
         }
       )
     }
+    allData[[j]] = data.frame(names = names, colors = palette)
     
-    allData = data.frame(names = names, colors = color)
   }
+  allData = rbindlist(allData)
+  return(allData)
+}
+uoData = urbanOutfitters()
+# write.csv(uoData, "/Users/nancyorgan/Documents/Nail-Polish/uoData.csv", row.names = FALSE)
+
+
+######################################################################
+######################################################################
+
+YSL = function(url){
+  
+  webpage = read_html(url$YSL)
+  
+  names =  webpage %>% 
+    html_nodes(css = '.swatch_color')
+  names = gsub(".*title=", "", names)
+  names = gsub("></span>", "", names)
+  names = gsub(".*\\s-\\s", "", names)
+  names = gsub('.{1}$', '', names)
+
+  
+  colors = webpage %>% 
+    html_nodes(css = '.swatch_color') %>%
+    html_attr("style")
+  colors = gsub(pattern = "background-color: ", replacement = "", colors )
+  
+  colors_img = webpage %>%
+    html_nodes(css = '.swatch_image_color') %>%
+    html_attr("data-retina-src") 
+  
+  palette = NULL
+  for(i in 1:length(colors_img)){
+    tryCatch(
+      expr = {
+        extension = substr(colors_img[i], nchar(colors_img[i]) - 3, nchar(colors_img[i]))
+        temp.file = ifelse(extension == ".png", tempfile(fileext = ".png"),
+                           ifelse(extension == ".jpg", tempfile(fileext = ".jpg"),
+                                  tempfile(fileext = extension)))
+        
+        download.file(colors_img[i], destfile = temp.file)
+        img = image_write(image_read(temp.file), temp.file, format = "jpeg")
+        img = readJPEG(temp.file)
+        display_image(img)
+        # img = ifelse(extension == ".png", readPNG(temp.file), readPNG(temp.file))
+        palette[i] = image_palette(img, n=1)
+        unlink(temp.file)
+      },
+      error = function(e){
+        message("* Caught an error on itertion ", i)
+        print(e)
+      }
+    )
+  }
+  
+  pictureData = data.frame(names = names, colors = palette)
   return(allData)
 }
 
-dior = essie(url$Dior)
-
-# write.csv(essieData, "/Users/nancyorgan/Desktop/essiedata.csv", row.names = FALSE)
-
+diorData = dior(url$Dior)
+#write.csv(diorData, "/Users/nancyorgan/Documents/Nail-Polish/diorData.csv", row.names = FALSE)
 ######################################################################
 ######################################################################
 
@@ -213,13 +317,31 @@ show3dPolish = function(colors, clusters){
 
 ######################################################################
 ######################################################################
+setwd("/Users/nancyorgan/Documents/Nail-Polish/")
+revlonData = read.csv("revlonData.csv")
+maybellineData = read.csv("maybellineData.csv")
+narsData = read.csv("narsData.csv")
+essieData = read.csv("essiedata.csv")
+essieData = subset(essieData, select = c("palette", "name"))
+names(essieData) = c("colors", "names")
+diorData = read.csv("diorData.csv")
+diorData = diorData %>% select(colors, names)
+uoData = read.csv("uoData.csv")
+uoData = uoData %>% select(colors, names)
+
+total = list(revlonData, maybellineData, narsData, essieData, diorData, uoData)
+total = rbindlist(total)
+lapply(total, function(x){names(x)})
+
 
 show3dPolish(revlonData$colors, 7)
 show3dPolish(maybellineData$colors, 2)
 show3dPolish(narsData$colors, 3)
-show3dPolish(essieData$palette[!is.na(essieData$palette)], 20)
+show3dPolish(essieData$colors[!is.na(essieData$colors)], 20)
+show3dPolish(diorData$colors, 3)
+show3dPolish(uoData$colors, 3)
 
 
-
+show3dPolish(as.character(total$colors[!is.na(total$colors)]), 10)
 
 
