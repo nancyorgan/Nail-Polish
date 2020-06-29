@@ -32,7 +32,7 @@
 "#00A651","Posh",0,166,81
 "#f2f2f2","Pure Pearl",242,242,242
 "#A5082E","Raven Red",165,8,46
-"#BE0018","Revlon Red",190,0,24
+"#BE0018","Red",190,0,24
 "#C18076","Romantique",193,128,118
 "#d24249","Saucy",210,66,73
 "#f9d4bb","Sheer Petal",249,212,187
@@ -66,7 +66,7 @@
 "#000000","Back Room",0,0,0
 "#000000","Back Room",0,0,0
 "#A88478","Bad Influence",168,132,120
-"#D55D21","Blow-Up",213,93,33
+"#D55D21","Blow Up",213,93,33
 "#CB1F2B","Dovima",203,31,43
 "#f8f8f8","Ecume",248,248,248
 "#440235","Elbrus",68,2,53
@@ -105,9 +105,9 @@
 "#F0EFE7","waltz",240,239,231
 "#F7F0EA","baby's breath",247,240,234
 "#F8EFE5","allure",248,239,229
-"#F9F0F1","adore-a-ball",249,240,241
-"#F3F1EC","limo-scene",243,241,236
-"#E4DCD1","pass-port to sail",228,220,209
+"#F9F0F1","adore a ball",249,240,241
+"#F3F1EC","limo scene",243,241,236
+"#E4DCD1","pass port to sail",228,220,209
 "#F8EDE8","east hampton cottage",248,237,232
 "#E4D6D2","ballet slippers",228,214,210
 "#F4E8E4","angel food",244,232,228
@@ -122,7 +122,7 @@
 "#FDF3EE","dress is more",253,243,238
 "#FAD6CE","fairy tailor",250,214,206
 "#FCD2C7","sheer fantasy",252,210,199
-"#FBE0DE","blush-worthy",251,224,222
+"#FBE0DE","blush worthy",251,224,222
 "#FCD7D5","inside scoop",252,215,213
 "#EAE7DF","all daisy long",234,231,223
 "#EEEEEE","blanc",238,238,238
@@ -130,7 +130,7 @@
 "#EDC2C4","galentine",237,194,196
 "#F2EFEC","pearly white",242,239,236
 "#F2F2F0","lace to the altar",242,242,240
-"#F5E7E4","pre-show jitters",245,231,228
+"#F5E7E4","pre show jitters",245,231,228
 "#F9F5EF","picture perfect",249,245,239
 NA,"satin slipper",NA,NA,NA
 NA,"satin slipper",NA,NA,NA
@@ -145,22 +145,22 @@ NA,"make the cut",NA,NA,NA
 "#E5DBD9","between the seats",229,219,217
 "#EED9DB","go go geisha",238,217,219
 "#FBE1DE","stirring secrets",251,225,222
-"#F1D0BC","buttoned &amp; buffed",241,208,188
-"#E2D7D2","mind-full meditation",226,215,210
+"#F1D0BC","buttoned; buffed",241,208,188
+"#E2D7D2","mind full meditation",226,215,210
 "#F8C3BC","in full swing",248,195,188
 "#F9C8C2","come out to clay",249,200,194
 "#E6A68F","home grown",230,166,143
 "#C8A39B","call your bluff",200,163,155
 "#C2A398","of quartz",194,163,152
-"#E9A7B0","into the a-bliss",233,167,176
+"#E9A7B0","into the a bliss",233,167,176
 "#D99679","on the bright cider",217,150,121
 "#CE9681","cliff hanger",206,150,129
 "#DD776B","rocky rose",221,119,107
-"#B2625D","bed rock &amp; roll",178,98,93
+"#B2625D","bed rock; roll",178,98,93
 "#F0E3E3","lighten the mood",240,227,227
 "#E0C5BE","don't be salty",224,197,190
 "#E3D5CE","sand tropez",227,213,206
-"#DED2CE","topless &amp; barefoot",222,210,206
+"#DED2CE","topless; barefoot",222,210,206
 "#FAE1D6","high class affair",250,225,214
 "#F2DCD8","spin the bottle",242,220,216
 "#E8C1B4","perennial chic",232,193,180
@@ -179,10 +179,10 @@ NA,"make the cut",NA,NA,NA
 "#FBC6B8","sew me",251,198,184
 "#F6BEB3","pinned up",246,190,179
 "#E5B9AE","mamba",229,185,174
-"#DBADA4","suit &amp; tied",219,173,164
+"#DBADA4","suit; tied",219,173,164
 "#C9AEAA","clothing optional",201,174,170
 "#D8BBB7","buy me a cameo",216,187,183
-"#EACBC1","tea &amp; crumpets",234,203,193
+"#EACBC1","tea; crumpets",234,203,193
 "#E7B7AF","oh behave!",231,183,175
 "#F9E8E5","eternal optimist",249,232,229
 "#EEC1BC","princess charming",238,193,188
@@ -193,33 +193,33 @@ NA,"make the cut",NA,NA,NA
 "#BF9AA4","island hopping",191,154,164
 "#B77C7B","walk the hemline",183,124,123
 "#BCA9AA","take me to thread",188,169,170
-"#D5C3AD","high tides &amp; dives",213,195,173
+"#D5C3AD","high tides; dives",213,195,173
 "#BCB1AE","mochacino",188,177,174
 "#A7958E","truth or bare",167,149,142
 "#A99895","mink muffs",169,152,149
 "#BE8A81","teacup half full",190,138,129
 "#C8889A","in stitches",200,136,154
-"#CC8E9C","mrs always-right",204,142,156
+"#CC8E9C","mrs always right",204,142,156
 "#A8818B","angora cardi",168,129,139
 "#97625F","pearls of wisdom",151,98,95
 "#896F6D","chocolate cakes",137,111,109
 "#A38F88","seeing stars",163,143,136
 "#FBE1E2","matter of fiction",251,225,226
-"#F2CDCF","crush &amp; blush",242,205,207
+"#F2CDCF","crush; blush",242,205,207
 "#FCB9B7","around the bend",252,185,183
 "#C78F9E","going all in",199,143,158
-"#DA828F","sequ-in the know",218,130,143
+"#DA828F","sequ in the know",218,130,143
 "#E57FA6","sparkles between us",229,127,166
 "#FA668A","no shade here",250,102,138
 "#F3E7ED","peak show",243,231,237
 "#F8E6E7","minimalistic",248,230,231
 "#FCEBEE","romper room",252,235,238
-"#F0DBE1","polar-izing",240,219,225
+"#F0DBE1","polar izing",240,219,225
 "#F8E9EB","muchi, muchi",248,233,235
-"#DAC1C2","wire-less is more",218,193,194
+"#DAC1C2","wire less is more",218,193,194
 "#FBD7DE","pr stunt",251,215,222
 "#F9DCDB","fiji",249,220,219
-"#EAC1BF","young, wild &amp; me",234,193,191
+"#EAC1BF","young, wild; me",234,193,191
 "#F4D4D9","pink diamond",244,212,217
 "#F6CBD7","need a vacation",246,203,215
 "#F3BFCB","delhi dance",243,191,203
@@ -230,11 +230,11 @@ NA,"make the cut",NA,NA,NA
 "#F79CAC","haute to trot",247,156,172
 "#F6BAD8","lovie dovie",246,186,216
 "#EF9BC5","mod square",239,155,197
-"#E092B4","you, me &amp; the sea",224,146,180
+"#E092B4","you, me; the sea",224,146,180
 "#F286A8","model citizen",242,134,168
 "#FBA4BA","pansy",251,164,186
 "#E999AF","babes in the booth",233,153,175
-"#EA4D7C","the it-factor",234,77,124
+"#EA4D7C","the it factor",234,77,124
 "#E0689B","the fuchsia is bright",224,104,155
 "#F28DBA","secret story",242,141,186
 "#E56D97","watermelon",229,109,151
@@ -242,7 +242,7 @@ NA,"make the cut",NA,NA,NA
 "#E67FA2","bachelorette bash",230,127,162
 "#EF8A96","double breasted jacket",239,138,150
 "#D47190","haute in the heat",212,113,144
-"#B1828B","stop, drop &amp; shop",177,130,139
+"#B1828B","stop, drop; shop",177,130,139
 "#B8536B","v.i.please",184,83,107
 "#FAD1D0","a touch of sugar",250,209,208
 "#F3B3A2","pinkies out",243,179,162
@@ -257,7 +257,7 @@ NA,"make the cut",NA,NA,NA
 "#FAC0BA","hold the position",250,192,186
 "#FCC6CC","stones n' roses",252,198,204
 "#FCBFB0","couture curator",252,191,176
-"#FDBEAD","exhibit a-line",253,190,173
+"#FDBEAD","exhibit a line",253,190,173
 "#F8B2B0","peach side babe",248,178,176
 "#FABDBA","tart deco",250,189,186
 "#E48F82","claim to fame",228,143,130
@@ -280,7 +280,7 @@ NA,"make the cut",NA,NA,NA
 "#F18D99","peach daiquiri",241,141,153
 "#F9404F","flashed",249,64,79
 "#FA7B78","clambake",250,123,120
-"#E98090","e-nuf is e-nuf",233,128,144
+"#E98090","e nuf is e nuf",233,128,144
 "#EA8295","you're so cupid",234,130,149
 "#E63F9A","glazed days",230,63,154
 "#92575C","game theory",146,87,92
@@ -304,8 +304,8 @@ NA,"make the cut",NA,NA,NA
 "#C06F77","fishnet stockings",192,111,119
 "#D68291","ring in the bling",214,130,145
 "#B34266","drop the gown",179,66,102
-"#B14B55","#essielove",177,75,85
-"#EC9696","a-list",236,150,150
+"#B14B55","love",177,75,85
+"#EC9696","a list",236,150,150
 "#B44647","roses are red",180,70,71
 "#C97674","limited addiction",201,118,116
 "#C27A7C","with the band",194,122,124
@@ -319,7 +319,7 @@ NA,"make the cut",NA,NA,NA
 "#BB7B90","hear me aurora",187,123,144
 "#9D3F51","bubbles only",157,63,81
 "#744040","spiked with style",116,64,64
-"#6F3F4B","gala-vanting",111,63,75
+"#6F3F4B","gala vanting",111,63,75
 "#946B6B","berry naughty",148,107,107
 "#A17276","wrapped in rubies",161,114,118
 "#B05E64","paint the gown red",176,94,100
@@ -336,7 +336,7 @@ NA,"make the cut",NA,NA,NA
 "#DED0E1","nice is nice",222,208,225
 "#F6CBDD","saved by the belle",246,203,221
 "#F0C3DF","cascade cool",240,195,223
-"#F19FC3","madison ave-hue",241,159,195
+"#F19FC3","madison ave hue",241,159,195
 "#E1A9CA","splash of grenadine",225,169,202
 "#DAB0C1","it takes a west village",218,176,193
 "#E4C6E5","dress call",228,198,229
@@ -348,14 +348,14 @@ NA,"make the cut",NA,NA,NA
 "#C9BDC7","just the way you arctic",201,189,199
 "#DC67AD","big spender",220,103,173
 "#C286B0","flowerista",194,134,176
-"#B06B83","knee-high life",176,107,131
+"#B06B83","knee high life",176,107,131
 "#C375A0","jamaica me crazy",195,117,160
 "#927484","bahama mama",146,116,132
 "#927579","carry on",146,117,121
 "#927584","making harmony",146,117,132
-"#D4BBC3","drive-in &amp; dine",212,187,195
+"#D4BBC3","drive in; dine",212,187,195
 "#A8708C","new year, new hue",168,112,140
-"#967EB2","beau-tie",150,126,178
+"#967EB2","beau tie",150,126,178
 "#8B5AB0","tangoed in love",139,90,176
 "#CB88A5","set the seam",203,136,165
 "#B27490","berry in love",178,116,144
@@ -367,7 +367,7 @@ NA,"make the cut",NA,NA,NA
 "#92747B","sole mate",146,116,123
 "#8B73A4","sexy divide",139,115,164
 "#898195","hazy daze",137,129,149
-"#8C7A92","kimono-over",140,122,146
+"#8C7A92","kimono over",140,122,146
 "#887983","luxedo",136,121,131
 "#7D6C79","amethyst noir",125,108,121
 "#3F78B7","wild card",63,120,183
@@ -377,32 +377,32 @@ NA,"make the cut",NA,NA,NA
 "#D6E2E2","at sea level",214,226,226
 "#B0AEBE","once upon a time",176,174,190
 "#DBECE9","getting intricate",219,236,233
-"#CEEAE9","dye-mentions",206,234,233
+"#CEEAE9","dye mentions",206,234,233
 "#BBC7EA","bikini so teeny",187,199,234
 "#C4B4D2","tiers of joy",196,180,210
 "#C3D2E6","salt water happy",195,210,230
 "#B5C5DD","lapiz of luxury",181,197,221
 "#AEB7C9","as if!",174,183,201
 "#B6D7DB","first view",182,215,219
-"#A9D8DB","in the cab-ana",169,216,219
+"#A9D8DB","in the cab ana",169,216,219
 "#8AC3DE","take the lead",138,195,222
 "#75C5EA","strut your stuff",117,197,234
 "#90C1C8","garden variety",144,193,200
 "#A7BAD0","glow with the flow",167,186,208
-"#B5B1CE","blue-tiful horizon",181,177,206
-"#A7B1DB","pret-a-surfer",167,177,219
+"#B5B1CE","blue tiful horizon",181,177,206
+"#A7B1DB","pret a surfer",167,177,219
 "#8899F0","butler please",136,153,240
 "#6F8DCF","mezmerised",111,141,207
 "#8F88C1","all access pass",143,136,193
 "#8382B5","find me a mannequin",131,130,181
 "#707D9D","loot the booty",112,125,157
-"#69818C","cause &amp; reflect",105,129,140
+"#69818C","cause; reflect",105,129,140
 "#7B8395","anchor down",123,131,149
 "#6C82A9","aruba blue",108,130,169
 "#656987","front page worthy",101,105,135
 "#868299","no more film",134,130,153
 "#79838D","on your mistletoes",121,131,141
-"#738B9B","bell-bottom blues",115,139,155
+"#738B9B","bell bottom blues",115,139,155
 "#739AA0","off duty style",115,154,160
 "#6F8A96","dressed to the nineties ",111,138,150
 "#4B5B6A","surrounded by studs",75,91,106
@@ -420,10 +420,10 @@ NA,"make the cut",NA,NA,NA
 "#D9E0DB","sage you love me",217,224,219
 "#DBE4CE","zip me up",219,228,206
 "#D3E8DE","mint candy apple",211,232,222
-"#A8D0C6","empower-mint",168,208,198
-"#B0E8E2","turquoise &amp; caicos",176,232,226
+"#A8D0C6","empower mint",168,208,198
+"#B0E8E2","turquoise; caicos",176,232,226
 "#AEC4C9","udon know me",174,196,201
-"#BAD7D3","bon boy-age",186,215,211
+"#BAD7D3","bon boy age",186,215,211
 "#DFE1B8","take a walk",223,225,184
 "#AAC1A4","beauty nap",170,193,164
 "#BCB5AB","exposed",188,181,171
@@ -433,29 +433,29 @@ NA,"make the cut",NA,NA,NA
 "#ABCFBC","jade to measure",171,207,188
 "#A2D2AF","mojito madness",162,210,175
 "#72D6D2","naughty nautical",114,214,210
-"#4B8484","stripes &amp; sails",75,132,132
+"#4B8484","stripes; sails",75,132,132
 "#6F9299","trophy wife",111,146,153
 "#688A95","go overboard",104,138,149
 "#708683","off tropic",112,134,131
 "#6D8073","wrap party",109,128,115
-"#FEF2A9","avant-garment",254,242,169
+"#FEF2A9","avant garment",254,242,169
 "#FCDEA6","hay there",252,222,166
 "#F3BC8C","fall for nyc",243,188,140
 "#FCE241","sweet supply",252,226,65
 "#E1E1E1","press pause",225,225,225
 "#A7938E","easily suede",167,147,142
-"#9C8D85","stop, look &amp; glisten",156,141,133
+"#9C8D85","stop, look; glisten",156,141,133
 "#D8DCDF","closing night",216,220,223
 "#D2D4DE","cocktail bling",210,212,222
 "#D7D2D4","without a stitch",215,210,212
-"#BFCCC6","maximillian strasse-her",191,204,198
-"#C3C2CC","the best-est",195,194,204
+"#BFCCC6","maximillian strasse her",191,204,198
+"#C3C2CC","the best est",195,194,204
 "#BAC1C7","mooning",186,193,199
 "#D3CECE","master plan",211,206,206
 "#B3A7A2","gadget free",179,167,162
 "#C1B6B7","chinchilly",193,182,183
 "#B6B7B4","serene slate",182,183,180
-"#CABEB9","social-lights",202,190,185
+"#CABEB9","social lights",202,190,185
 "#A9A9B3","toned down",169,169,179
 "#B3A6AB","merino cool",179,166,171
 "#908B96","smokin' hot",144,139,150
@@ -464,19 +464,19 @@ NA,"make the cut",NA,NA,NA
 "#959495","for the twill of it",149,148,149
 "#91929B","winning streak",145,146,155
 "#787279","twill seeker",120,114,121
-"#969492","tribal text-styles",150,148,146
+"#969492","tribal text styles",150,148,146
 "#837E81","over the edge",131,126,129
 "#565F5C","hang up the heels",86,95,92
 "#78777C","on mute",120,119,124
 "#78706D","generation zen",120,112,109
 "#4E4E4E","licorice",78,78,78
-"#BCA793","semi-precious tones",188,167,147
+"#BCA793","semi precious tones",188,167,147
 "#E1AA97","steel the show",225,170,151
-"#D6A499","gorge-ous geodes",214,164,153
+"#D6A499","gorge ous geodes",214,164,153
 "#B9B8B4","rock your world",185,184,180
 "#C58E6D","what s gold is new",197,142,109
-"#A67565","sun-day style",166,117,101
-"#C95DA3","get a psy-kick out of it",201,93,163
+"#A67565","sun day style",166,117,101
+"#C95DA3","get a psy kick out of it",201,93,163
 "#F1DECA","mani thanks",241,222,202
 "#F86DA1","happy medium",248,109,161
 "#ECD2D8","birthday girl",236,210,216
@@ -488,7 +488,7 @@ NA,"make the cut",NA,NA,NA
 "#B17D97","city slicker",177,125,151
 "#AAAAAF","stay up slate",170,170,175
 "#709FA4","night owl",112,159,164
-"#CCCED3","après-chic",204,206,211
+"#CCCED3","après chic",204,206,211
 "#C9A6A9","a cut above",201,166,169
 "#BEBAAF","beyond cozy",190,186,175
 "#C4A593","daring damsel",196,165,147
@@ -510,21 +510,21 @@ NA,"make the cut",NA,NA,NA
 "#D1BEAA","summit of style",209,190,170
 "#D6C2B9","to have and to gold",214,194,185
 "#F0DEB7","you're golden",240,222,183
-"#E71F4D","Lucky Dior",231,31,77
+"#E71F4D","Lucky ",231,31,77
 "#C72240","Love",199,34,64
 "#CAACA4","Enchanted",202,172,164
 "#FDD9CB","Muguet",253,217,203
-"#E83741","Diorcharm",232,55,65
+"#E83741","charm",232,55,65
 "#C31B4F","Popsicle",195,27,79
 "#EE809D","Twinkle",238,128,157
 "#DF372C","Star",223,55,44
 "#A1818C","Fantasmatic",161,129,140
 "#BD226E","Bubble gum",189,34,110
-"#F9C9C9","Tra-la-la",249,201,201
-"#5B1F52","Diorcelestial",91,31,82
+"#F9C9C9","Tra la la",249,201,201
+"#5B1F52","celestial",91,31,82
 "#F08176","Maybe",240,129,118
 "#9B4164","687",155,65,100
-"#AC2335","Be Dior",172,35,53
+"#AC2335","Be ",172,35,53
 "#491720","Candy cane",73,23,32
 "#D09493","Incognito",208,148,147
 "#E74366","Coraloha",231,67,102
@@ -561,7 +561,7 @@ NA,"make the cut",NA,NA,NA
 "#D30128","Perfect Red",211,1,40
 "#E0D2D1","Barely There",224,210,209
 "#D9BEA3","Fools Gold",217,190,163
-"#0068D1","Indigo-go",0,104,209
+"#0068D1","Indigo go",0,104,209
 "#4C1A1B","Dark Horse",76,26,27
 "#F5014B","New Wave",245,1,75
 "#BCB895","Sage Anything",188,184,149
@@ -587,7 +587,7 @@ NA,"make the cut",NA,NA,NA
 "#DEDCDB","Seraphina",222,220,219
 "#E9E9E8","Ginessa",233,233,232
 "#F2F3F3","Purity",242,243,243
-"#EEEDEC","Aspen - MatteVelvet",238,237,236
+"#EEEDEC","Aspen MatteVelvet",238,237,236
 "#EFEFEC","Lucy",239,239,236
 "#F3F4F0","Snow White",243,244,240
 "#FAFAFA","Tip Perfector",250,250,250
@@ -666,13 +666,13 @@ NA,"make the cut",NA,NA,NA
 "#E1D0CC","Beth",225,208,204
 "#D7C9C3","Keira",215,201,195
 "#DDD4D0","Brighton",221,212,208
-"#E2DAD0","Godiva PixieDust - Textured",226,218,208
-"#E3D4CE","Lux - Magical PixieDust - Textured",227,212,206
-"#E8DCD3","Bar - Magical PixieDust - Textured",232,220,211
+"#E2DAD0","Godiva PixieDust Textured",226,218,208
+"#E3D4CE","Lux Magical PixieDust Textured",227,212,206
+"#E8DCD3","Bar Magical PixieDust Textured",232,220,211
 "#E9E5D7","Tomoko",233,229,215
 "#DDD1C6","Jules",221,209,198
 "#EADCCF","Nahla",234,220,207
-"#D7C8BA","Levi - PixieDust - Textured",215,200,186
+"#D7C8BA","Levi PixieDust Textured",215,200,186
 "#E8D9C9","Glimmer",232,217,201
 "#FCE9DD","Jane",252,233,221
 "#FCE6DA","Loretta",252,230,218
@@ -680,7 +680,7 @@ NA,"make the cut",NA,NA,NA
 "#F2C9B8","Meadow",242,201,184
 "#DCBBB0","Austine",220,187,176
 "#FBD5BA","Cole",251,213,186
-"#EBDAC9","Sue - MatteVelvet",235,218,201
+"#EBDAC9","Sue MatteVelvet",235,218,201
 "#FECFBC","Sawyer",254,207,188
 "#F9D2CA","Tessa",249,210,202
 "#F5BEB1","Cassi",245,190,177
@@ -691,13 +691,13 @@ NA,"make the cut",NA,NA,NA
 "#F4B593","Jesy",244,181,147
 "#E1A995","Tanzy",225,169,149
 "#E6B9A2","Nadia",230,185,162
-"#E8AE95","Beatrix PixieDust - Textured",232,174,149
+"#E8AE95","Beatrix PixieDust Textured",232,174,149
 "#D3A091","Autumn",211,160,145
 "#F6A185","Thandie",246,161,133
 "#DD9F8C","Amy",221,159,140
-"#E1978D","Destiny PixieDust - Textured",225,151,141
+"#E1978D","Destiny PixieDust Textured",225,151,141
 "#CDA19C","Tawny",205,161,156
-"#E1988F","Dhara - PixieDust - Textured",225,152,143
+"#E1988F","Dhara PixieDust Textured",225,152,143
 "#ED978C","Rocha",237,151,140
 "#E49A8F","Paz",228,154,143
 "#F5A197","Cam",245,161,151
@@ -705,7 +705,7 @@ NA,"make the cut",NA,NA,NA
 "#E5A3A0","Heidi",229,163,160
 "#E6A7A8","Elodie",230,167,168
 "#F5B1AE","Solstice",245,177,174
-"#FD9B98","Erza - Neon",253,155,152
+"#FD9B98","Erza Neon",253,155,152
 "#F5A6A3","Tulip",245,166,163
 "#F8B6B3","Wendy",248,182,179
 "#F8C7C6","Clementine",248,199,198
@@ -716,8 +716,8 @@ NA,"make the cut",NA,NA,NA
 "#E3AEB3","Tinsley",227,174,179
 "#E6A6B3","Maya",230,166,179
 "#E49FB0","Lo",228,159,176
-"#D8959F","Linds - PixieDust - Textured",216,149,159
-"#FD93A4","Bisca - Neon",253,147,164
+"#D8959F","Linds PixieDust Textured",216,149,159
+"#FD93A4","Bisca Neon",253,147,164
 "#F6A3B7","Micky",246,163,183
 "#F1B2C4","Brandi",241,178,196
 "#F4A1B4","Harper",244,161,180
@@ -729,7 +729,7 @@ NA,"make the cut",NA,NA,NA
 "#F097B5","Molly",240,151,181
 "#F0ACCA","Eden",240,172,202
 "#F69BC6","Kelsey",246,155,198
-"#FD90BF","Cana - Neon",253,144,191
+"#FD90BF","Cana Neon",253,144,191
 "#F585BB","Kiki",245,133,187
 "#F883B0","Lola",248,131,176
 "#E27CB2","Ali",226,124,178
@@ -738,7 +738,7 @@ NA,"make the cut",NA,NA,NA
 "#CB83AD","Katy",203,131,173
 "#CE83B2","Areej",206,131,178
 "#CD86A9","Morgan",205,134,169
-"#BB8BA7","Arabella PixieDust - Textured",187,139,167
+"#BB8BA7","Arabella PixieDust Textured",187,139,167
 "#DA89B4","Lara",218,137,180
 "#EF9ABB","Ellie",239,154,187
 "#F29CC1","Dacey",242,156,193
@@ -750,7 +750,7 @@ NA,"make the cut",NA,NA,NA
 "#DF83A2","Yana",223,131,162
 "#E28AA6","Mae",226,138,166
 "#D891B4","Taryn",216,145,180
-"#BF92A0","Miranda - PixieDust - Textured",191,146,160
+"#BF92A0","Miranda PixieDust Textured",191,146,160
 "#E1ADBC","Maryann",225,173,188
 "#D88AA4","Renee",216,138,164
 "#E58AA3","Brynn",229,138,163
@@ -765,7 +765,7 @@ NA,"make the cut",NA,NA,NA
 "#E198B1","Azalea",225,152,177
 "#E2AABD","Cadence",226,170,189
 "#D48AA2","Monroe",212,138,162
-"#E2A6B4","Zooey - PixieDust - Textured",226,166,180
+"#E2A6B4","Zooey PixieDust Textured",226,166,180
 "#E6BAC7","Arielle",230,186,199
 "#E1C1C9","Ginni",225,193,201
 "#E5B9CA","Jenna",229,185,202
@@ -818,7 +818,7 @@ NA,"make the cut",NA,NA,NA
 "#B68B87","Channing",182,139,135
 "#CF8384","Ember",207,131,132
 "#DA8F9C","Robbie",218,143,156
-"#D07C89","Amal - MatteVelvet",208,124,137
+"#D07C89","Amal MatteVelvet",208,124,137
 "#D68697","Ash",214,134,151
 "#CC8B9D","Max",204,139,157
 "#BC7A84","Sheri",188,122,132
@@ -834,9 +834,9 @@ NA,"make the cut",NA,NA,NA
 "#B18585","Jade",177,133,133
 "#B47B83","Elisa",180,123,131
 "#AF7779","Courtney",175,119,121
-"#B68692","Chyna PixieDust - Textured",182,134,146
+"#B68692","Chyna PixieDust Textured",182,134,146
 "#AA868B","Isla",170,134,139
-"#B2838B","Oswin - Ultra PixieDust - Textured",178,131,139
+"#B2838B","Oswin Ultra PixieDust Textured",178,131,139
 "#A87C80","India",168,124,128
 "#A07F81","Pepper",160,127,129
 "#B3838F","Dakota",179,131,143
@@ -866,17 +866,17 @@ NA,"make the cut",NA,NA,NA
 "#BB93A8","Kendra",187,147,168
 "#BA839B","Britta",186,131,155
 "#A88594","Blaze",168,133,148
-"#A0828A","Arianna Ultra PixieDust - Textured",160,130,138
+"#A0828A","Arianna Ultra PixieDust Textured",160,130,138
 "#A3868E","Rachael",163,134,142
 "#938885","Elaine",147,136,133
-"#A08290","Noir Ultra PixieDust - Textured",160,130,144
+"#A08290","Noir Ultra PixieDust Textured",160,130,144
 "#805966","Etta",128,89,102
 "#A08C8E","Blair",160,140,142
 "#644E54","Sedona",100,78,84
 "#92868B","Jem",146,134,139
 "#8E8489","Payton",142,132,137
 "#9B7E89","Teigen",155,126,137
-"#A6879B","Lorna - PixieDust - Textured",166,135,155
+"#A6879B","Lorna PixieDust Textured",166,135,155
 "#C4A1AA","Joy",196,161,170
 "#C4B2B6","Adina",196,178,182
 "#B398A3","Katherine",179,152,163
@@ -885,8 +885,8 @@ NA,"make the cut",NA,NA,NA
 "#D2A7C3","Rory",210,167,195
 "#AC8CAB","Carly",172,140,171
 "#BD9FBC","Dannii",189,159,188
-"#C1A7CC","Stevie - PixieDust - Textured",193,167,204
-"#D8BDCF","Arlo Magical PixieDust - Textured",216,189,207
+"#C1A7CC","Stevie PixieDust Textured",193,167,204
+"#D8BDCF","Arlo Magical PixieDust Textured",216,189,207
 "#E2C5DE","Leslie",226,197,222
 "#E1C9E7","Haruko",225,201,231
 "#CFB9D8","Delia",207,185,216
@@ -926,7 +926,7 @@ NA,"make the cut",NA,NA,NA
 "#AEA0AF","Daul",174,160,175
 "#927F96","Giada",146,127,150
 "#B0A2B5","Cookie",176,162,181
-"#988AA2","Carter PixieDust - Textured",152,138,162
+"#988AA2","Carter PixieDust Textured",152,138,162
 "#8A8098","Belinda",138,128,152
 "#9685A4","Suri",150,133,164
 "#8C799A","Pinta",140,121,154
@@ -952,7 +952,7 @@ NA,"make the cut",NA,NA,NA
 "#BDBBC7","Caitlin",189,187,199
 "#A4A9C4","Prim",164,169,196
 "#A6A1CC","Serenity",166,161,204
-"#A5A4CA","Alice - PixieDust - Textured",165,164,202
+"#A5A4CA","Alice PixieDust Textured",165,164,202
 "#B2B2D6","Aster",178,178,214
 "#75748D","Vesper",117,116,141
 "#ADB0CB","Aire",173,176,203
@@ -961,7 +961,7 @@ NA,"make the cut",NA,NA,NA
 "#9C9AA4","Freja",156,154,164
 "#AEBBC8","FeiFei",174,187,200
 "#C6CDD2","Hazel",198,205,210
-"#C3C4D0","Nyx PixieDust - Textured",195,196,208
+"#C3C4D0","Nyx PixieDust Textured",195,196,208
 "#CBCDD4","August",203,205,212
 "#E2E5F1","Miley",226,229,241
 "#D6DFE8","Kristen",214,223,232
@@ -974,19 +974,19 @@ NA,"make the cut",NA,NA,NA
 "#CBDEE2","Amira",203,222,226
 "#D4E4F1","Mosheen",212,228,241
 "#DAE5ED","Saldana",218,229,237
-"#CDD6D8","Vega - Magical PixieDust - Textured",205,214,216
+"#CDD6D8","Vega Magical PixieDust Textured",205,214,216
 "#A8BBC7","Skylar",168,187,199
-NA,"Bay - PixieDust - Textured",NA,NA,NA
+NA,"Bay PixieDust Textured",NA,NA,NA
 "#97CAD8","Rocky",151,202,216
 "#93B3C1","Charla",147,179,193
 "#88A8B9","Twila",136,168,185
-"#869DAD","Liberty - PixieDust - Textured",134,157,173
+"#869DAD","Liberty PixieDust Textured",134,157,173
 "#A0B8CC","Breezi",160,184,204
 "#79B3C7","Oceane",121,179,199
 "#B2DDE7","Rayne",178,221,231
 "#B6CEE3","Yummy",182,206,227
 "#75C3E6","Robyn",117,195,230
-"#72B8E8","Juvia - Neon",114,184,232
+"#72B8E8","Juvia Neon",114,184,232
 "#74A5D0","Mallory",116,165,208
 "#76ACCD","Ling",118,172,205
 "#8AA7CC","Tallulah",138,167,204
@@ -1000,9 +1000,9 @@ NA,"Bay - PixieDust - Textured",NA,NA,NA
 "#5184B1","Alessia",81,132,177
 "#8E97B7","Nori",142,151,183
 "#8690A8","Dream",134,144,168
-"#8793AF","Waverly - PixieDust - Textured",135,147,175
+"#8793AF","Waverly PixieDust Textured",135,147,175
 "#8294BB","Estelle",130,148,187
-"#8376D5","Mirajane - Neon",131,118,213
+"#8376D5","Mirajane Neon",131,118,213
 "#8B93B9","Song",139,147,185
 "#464E72","Jen",70,78,114
 "#777996","Ibiza",119,121,150
@@ -1027,7 +1027,7 @@ NA,"Bay - PixieDust - Textured",NA,NA,NA
 "#85C2AC","Ness",133,194,172
 "#89A69F","Giovanna",137,166,159
 "#A0A89E","Chita",160,168,158
-"#80998F","Elphie - PixieDust - Textured",128,153,143
+"#80998F","Elphie PixieDust Textured",128,153,143
 "#74AF99","Honor MatteVelvet",116,175,153
 "#72A79D","Wyatt",114,167,157
 "#9CA3A2","Evvie",156,163,162
@@ -1037,11 +1037,11 @@ NA,"Bay - PixieDust - Textured",NA,NA,NA
 "#919685","Shawn",145,150,133
 "#9DA796","Logan",157,167,150
 "#97AF9A","Ivanka",151,175,154
-"#A1BCA0","Cece - PixieDust - Textured",161,188,160
+"#A1BCA0","Cece PixieDust Textured",161,188,160
 "#C2CBAB","Meg",194,203,171
 "#B5C6A4","Apple",181,198,164
 "#98C8A4","Stassi",152,200,164
-"#73CC9E","Evergreen - Neon",115,204,158
+"#73CC9E","Evergreen Neon",115,204,158
 "#A9BF94","Jace",169,191,148
 "#AFC6A6","Josie",175,198,166
 "#B8C797","Midori",184,199,151
@@ -1051,7 +1051,7 @@ NA,"Bay - PixieDust - Textured",NA,NA,NA
 "#C1BDA2","Arbor",193,189,162
 "#D2D7B5","Tracie",210,215,181
 "#C0CEBF","Rikki",192,206,191
-"#CED7C7","Vespa PixieDust - Textured",206,215,199
+"#CED7C7","Vespa PixieDust Textured",206,215,199
 "#E3EFDA","Tiana",227,239,218
 "#E6EEE0","Neely",230,238,224
 "#D6DFD7","Lacey",214,223,215
@@ -1066,13 +1066,13 @@ NA,"Bay - PixieDust - Textured",NA,NA,NA
 "#D8D0BA","Gal",216,208,186
 "#E2D4AB","Ziv",226,212,171
 "#F6E6C4","Brooklyn",246,230,196
-"#E7D79A","Solange - PixieDust - Textured",231,215,154
+"#E7D79A","Solange PixieDust Textured",231,215,154
 "#F4E48F","Kerry",244,228,143
 "#F5E18E","Pippa",245,225,142
 "#F9E78D","Darcy",249,231,141
 "#FDEDB4","Daisy",253,237,180
 "#F9EACD","Bee",249,234,205
-"#F0E2C6","Maria-Luisa",240,226,198
+"#F0E2C6","Maria Luisa",240,226,198
 "#D1B2A4","Kaede",209,178,164
 "#CDB490","Goldie",205,180,144
 "#D1B499","Aggie",209,180,153
@@ -1125,19 +1125,19 @@ NA,"Bay - PixieDust - Textured",NA,NA,NA
 "#D4D4D3","Dove",212,212,211
 "#B6BABC","Tove",182,186,188
 "#D3D1CE","Harley",211,209,206
-"#DDD9D3","Cosmo - Magical PixieDust - Textured",221,217,211
+"#DDD9D3","Cosmo Magical PixieDust Textured",221,217,211
 "#A29FA3","Jett",162,159,163
-"#CAC8CC","Tilly - PixieDust - Textured",202,200,204
+"#CAC8CC","Tilly PixieDust Textured",202,200,204
 "#B2B3B8","Theo",178,179,184
 "#B5B4C1","Devin",181,180,193
 "#B7BAB8","Cassedy",183,186,184
-"#BDBBB8","London - PixieDust - Textured",189,187,184
+"#BDBBB8","London PixieDust Textured",189,187,184
 "#B5B5B8","Tao",181,181,184
 "#73727E","Tieran",115,114,126
 "#707077","Ashton",112,112,119
 "#97969B","Genevieve",151,150,155
 "#A29F9F","Troy",162,159,159
-"#989795","Dahlia - PixieDust - Textured",152,151,149
+"#989795","Dahlia PixieDust Textured",152,151,149
 "#939C9B","Yuna",147,156,155
 "#909595","Tris",144,149,149
 "#878A91","Hadley",135,138,145
