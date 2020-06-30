@@ -296,7 +296,7 @@ YSLdata = rbind(YSL(url$YSL), YSL(url$YSL2))
 ######################################################################
 ZOYA = function(url){
   
-  webpage = read_html(url$)
+  webpage = read_html(url$ZOYA)
   
   names =  webpage %>% 
     html_nodes(css = '.color_swatch') %>%
@@ -375,6 +375,12 @@ show3dPolish = function(colors, clusters){
   }
 }
 
+show3dnoClusters = function(colors){
+  mydata = splitColor(colors)
+  open3d()
+  with(mydata, plot3d(r, g, b, type="p", col = colors, radius = 40))
+}
+
 ######################################################################
 ######################################################################
 setwd("/Users/nancyorgan/Documents/Nail-Polish/")
@@ -403,11 +409,13 @@ setwd("/Users/nancyorgan/Documents/Nail-Polish/")
 total = read.csv("total.csv")
 
 show3dPolish(as.character(total$colors[!is.na(total$colors)]), 10)
+show3dnoClusters(as.character(total$colors[!is.na(total$colors)]))
 show3dPolish(revlonData$colors, 7)
 show3dPolish(maybellineData$colors, 2)
 show3dPolish(narsData$colors, 3)
 show3dPolish(essieData$colors[!is.na(essieData$colors)], 20)
 show3dPolish(diorData$colors, 3)
 show3dPolish(uoData$colors, 3)
+show3dPolish(ZOYAdata$colors[!is.na(ZOYAdata$colors)], 1)
 
 
