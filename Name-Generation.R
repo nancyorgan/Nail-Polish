@@ -54,6 +54,7 @@ findClosest = function(color){
 }
 
 findClosest("#242491")
-findClosest("#F15D5A")
-findClosest("#F75590")
-findClosest("#00780E")
+findClosest("#970098")
+findClosest("#F5FBEF")
+findClosest("#f1f1f1")
+findClosest("#001E60")
