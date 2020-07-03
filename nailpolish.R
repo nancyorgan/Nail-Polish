@@ -378,7 +378,7 @@ show3dPolish = function(colors, clusters){
 show3dnoClusters = function(colors){
   mydata = splitColor(colors)
   open3d()
-  with(mydata, plot3d(r, g, b, type="p", col = colors, radius = 40))
+  with(mydata, plot3d(r, g, b, type="p", col = colors, radius = 60))
 }
 
 ######################################################################
@@ -407,9 +407,12 @@ write.csv(total, "total.csv", row.names = FALSE)
 ####################################################################
 setwd("/Users/nancyorgan/Documents/Nail-Polish/")
 total = read.csv("total.csv")
+onlyNails = read.csv("onlyNails")
+paintcolors = read.csv("paintcolors.csv")
 
 show3dPolish(as.character(total$colors[!is.na(total$colors)]), 10)
 show3dnoClusters(as.character(total$colors[!is.na(total$colors)]))
+show3dnoClusters(as.character(paintcolors$colors[!is.na(paintcolors$colors)]))
 show3dPolish(revlonData$colors, 7)
 show3dPolish(maybellineData$colors, 2)
 show3dPolish(narsData$colors, 3)
