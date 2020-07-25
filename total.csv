@@ -306,7 +306,7 @@ colors,names,r,g,b
 #4A515A,Gotham Gray,74,81,90
 #414F5B,Fly-by-Night Blue,65,79,91
 #434D56,Pitch Cobalt,67,77,86
-#F7F5E7,Betsyâs Linen,247,245,231
+#F7F5E7,Betsy as Linen,247,245,231
 #F6F3E7,Fresh Cotton,246,243,231
 #E9F6EF,Italian Ice,233,246,239
 #F7F4DB,Gilded Endive,247,244,219
@@ -356,7 +356,7 @@ colors,names,r,g,b
 #DAEFEB,Stillness,218,239,235
 #E7ECDF,Light Moss,231,236,223
 #EDE9DC,Crisp Linen,237,233,220
-#F0EADD,Pamâs Lace,240,234,221
+#F0EADD,Pam as Lace,240,234,221
 #EBEBD9,Ocean Buff,235,235,217
 #E9E9E0,Promenade,233,233,224
 #EFE8D7,Caribbean Walk,239,232,215
@@ -410,7 +410,7 @@ colors,names,r,g,b
 #E8E3D7,Snowy Dusk,232,227,215
 #E6E4DD,Satin Snow,230,228,221
 #E0E3E4,Prudence,224,227,228
-#E8E2D6,Tottenâs Inlet,232,226,214
+#E8E2D6,Totten as Inlet,232,226,214
 #E8E3E4,Fainting Violet,232,227,228
 #EBE1E4,Lilac Intuition,235,225,228
 #E4E3E2,Gray Shimmer,228,227,226
@@ -458,7 +458,7 @@ colors,names,r,g,b
 #EDE8DC,Cozy White,237,232,220
 #F3E6CD,Estate Vanilla,243,230,205
 #EEE8D1,Ginger Sugar,238,232,209
-#ECE7D9,Shaniaâs Lace,236,231,217
+#ECE7D9,Shania as Lace,236,231,217
 #F2E3D0,Subtle Blush,242,227,208
 #EBE2D7,Riviera Dune,235,226,215
 #ECE3CE,Ivory Essence,236,227,206
@@ -534,7 +534,7 @@ colors,names,r,g,b
 #D5C8BD,Sand Storm,213,200,189
 #CCC9B4,Morning Zen,204,201,180
 #DDC0B2,Cashmere Pink,221,192,178
-#CFC4B5,Doveâs Cry,207,196,181
+#CFC4B5,Dove as Cry,207,196,181
 #D5C6C2,Berry Cream,213,198,194
 #DEC4B9,Rodeo Dust,222,196,185
 #DAC3BF,Rosario Ridge,218,195,191
@@ -559,7 +559,7 @@ colors,names,r,g,b
 #CEC193,Dry Leaf,206,193,147
 #D1BBB0,Blushing Bride,209,187,176
 #CCBCB0,Dust Bunny,204,188,176
-#CABBA7,Lambâs Ear,202,187,167
+#CABBA7,Lamb as Ear,202,187,167
 #DCB995,Sun Tan,220,185,149
 #D7B8AE,Sunset Curtains,215,184,174
 #D3B78D,Parchment Gold,211,183,141
@@ -601,7 +601,7 @@ colors,names,r,g,b
 #CCA488,Vienna Beige,204,164,136
 #BEA89F,Glamorous Taupe,190,168,159
 #C1A491,Pink Chocolate,193,164,145
-#B2AE9F,Hunterâs White,178,174,159
+#B2AE9F,Hunter as White,178,174,159
 #BBAA9A,Timber Dust,187,170,154
 #BFA199,English Elegance,191,161,153
 #C5A598,Naked Clay,197,165,152
@@ -641,7 +641,7 @@ colors,names,r,g,b
 #AB9C83,Wild Mushroom,171,156,131
 #B59791,Cherry Taupe,181,151,145
 #B69396,Antoinette,182,147,150
-#9B9B88,Grandmaâs Linen,155,155,136
+#9B9B88,Grandma as Linen,155,155,136
 #B39385,Opaque Cocoa,179,147,133
 #B1956D,Caramel Gold,177,149,109
 #B88F75,Coffee Gelato,184,143,117
@@ -676,7 +676,7 @@ colors,names,r,g,b
 #8B8978,Folkstone,139,137,120
 #9C8682,Irish Tea,156,134,130
 #9A8668,Prairie Path,154,134,104
-#988771,Riverbedâs Edge,152,135,113
+#988771,Riverbed as Edge,152,135,113
 #938672,Wild Hawk,147,134,114
 #A67E64,Rustic Oak,166,126,100
 #9B8164,Crunch Granola,155,129,100
@@ -708,7 +708,7 @@ colors,names,r,g,b
 #876E63,Brown Bark,135,110,99
 #826D4F,Grecian Helmet,130,109,79
 #816462,Berry Brandy,129,100,98
-#6B675C,Falconâs Plume,107,103,92
+#6B675C,Falcon as Plume,107,103,92
 #626054,Olive Smudge,98,96,84
 #B09666,Lioness,176,150,102
 #B28063,Terra Cotta Trail,178,128,99
@@ -738,7 +738,7 @@ colors,names,r,g,b
 #826852,Muddy Mississippi,130,104,82
 #77695A,Treetrunk,119,105,90
 #816959,Gypsy Leather,129,105,89
-#836652,Monaâs Mane,131,102,82
+#836652,Mona as Mane,131,102,82
 #756A54,Moss Mulch,117,106,84
 #7F6453,Wooden Wagon,127,100,83
 #736556,Stampede,115,101,86
@@ -746,7 +746,7 @@ colors,names,r,g,b
 #7F605C,Western Clay,127,96,92
 #825E57,Brickstone Red,130,94,87
 #746356,Sumatra Blend,116,99,86
-#815E55,Potterâs Rock,129,94,85
+#815E55,Potter as Rock,129,94,85
 #736355,Shutter Brown,115,99,85
 #805E4F,Chocolate Sauce,128,94,79
 #6C5F56,Garden Walk,108,95,86
@@ -773,7 +773,7 @@ colors,names,r,g,b
 #645953,Frontier Road,100,89,83
 #6B5652,Bridle Leather Brown,107,86,82
 #705148,Western Brown,112,81,72
-#69534C,Gardenerâs Soil,105,83,76
+#69534C,Gardener as Soil,105,83,76
 #6B524C,Tavern Mahogany,107,82,76
 #605649,Harvest Brown,96,86,73
 #6E4D4C,Brown Plum,110,77,76
@@ -835,7 +835,7 @@ colors,names,r,g,b
 #D7DFE3,Wisteria Snow,215,223,227
 #DCDDE4,Rising Star,220,221,228
 #DEDCDF,April Morning,222,220,223
-#DBDED5,Waveâs Crest,219,222,213
+#DBDED5,Wave as Crest,219,222,213
 #B9E8D0,Beach Blanket,185,232,208
 #C8E2EF,Summer Breeze,200,226,239
 #CFDEE7,Journal Book,207,222,231
@@ -848,7 +848,7 @@ colors,names,r,g,b
 #C3E1E3,Tropical Spray,195,225,227
 #ACE6DA,Ocean Whisper,172,230,218
 #C9DEE8,New Day,201,222,232
-#CEDBEC,Cool  Hue,206,219,236
+#CEDBEC,Cool Hue,206,219,236
 #C9DFDE,Dreamy Clouds,201,223,222
 #BCE2D5,Meadow Mist,188,226,213
 #CEDAED,Serenity,206,218,237
@@ -856,7 +856,7 @@ colors,names,r,g,b
 #C8DBD2,Tranquility,200,219,210
 #CADCD3,Pillow Mint,202,220,211
 #B9DEE7,Surf Spray,185,222,231
-#B1E4C9,Minoâs Eye,177,228,201
+#B1E4C9,Mino as Eye,177,228,201
 #B3DFEB,Angelic Blue,179,223,235
 #BEDDE6,Rain Dance,190,221,230
 #BCDBED,Clear Blue Sky,188,219,237
@@ -870,7 +870,7 @@ colors,names,r,g,b
 #C6D8CC,Aloe Vera,198,216,204
 #9AE1D1,Fresh Mist,154,225,209
 #C2D8E1,Pale Flowers,194,216,225
-#99E1D1,Mermaidâs Song,153,225,209
+#99E1D1,Mermaid as Song,153,225,209
 #BBD6EB,Escape,187,214,235
 #ADDCD2,Aqua Glow,173,220,210
 #BFD3DD,Paradise Blue,191,211,221
@@ -978,7 +978,7 @@ colors,names,r,g,b
 #7795B3,Splendid Blue,119,149,179
 #519CA0,Tidal Teal,81,156,160
 #2FA470,Cosmic Green,47,164,112
-#749795,Waterâs Edge,116,151,149
+#749795,Water as Edge,116,151,149
 #5E97B5,Rushing Rapids,94,151,181
 #579C87,Beach Grass,87,156,135
 #2D9ABC,Pool Party,45,154,188
@@ -1167,7 +1167,7 @@ colors,names,r,g,b
 #90C881,Superior Green,144,200,129
 #A7C443,Parakeet Green,167,196,67
 #B9BC98,Sumptuous Sage,185,188,152
-#BEBD3B,Canât Miss Lime,190,189,59
+#BEBD3B,Can at Miss Lime,190,189,59
 #BDB994,Young Willow,189,185,148
 #C1B792,Withered Moss,193,183,146
 #9DC37A,Pea Pod,157,195,122
@@ -1261,7 +1261,7 @@ colors,names,r,g,b
 #6B6D55,Tarragon,107,109,85
 #567244,French Olive,86,114,68
 #6D6954,City Arboretum,109,105,84
-#676443,Summerâs End,103,100,67
+#676443,Summer as End,103,100,67
 #586444,Dark Meadow,88,100,68
 #1A4951,Midnight Bayou,26,73,81
 #F8F4D7,Enlightenment,248,244,215
@@ -1465,7 +1465,7 @@ colors,names,r,g,b
 #E9AB77,Tomato Bisque,233,171,119
 #F6A08C,Poppy Petal,246,160,140
 #F6A370,Orange Nut,246,163,112
-#E2AE62,Pirateâs Treasure,226,174,98
+#E2AE62,Pirate as Treasure,226,174,98
 #E9A871,Butterscotch Sundae,233,168,113
 #DBAC96,Arizona Dust,219,172,150
 #F89E57,Pumpkin Burst,248,158,87
@@ -1504,7 +1504,7 @@ colors,names,r,g,b
 #E18E78,Sweetly Singing,225,142,120
 #D6926B,Longhorn,214,146,107
 #D29473,Laredo,210,148,115
-#CE9650,Poseidonâs Gold,206,150,80
+#CE9650,Poseidon as Gold,206,150,80
 #CF954A,Bugle Call,207,149,74
 #CD965C,Autumn Spice,205,150,92
 #BE986A,Lariat Tan,190,152,106
@@ -1581,7 +1581,7 @@ colors,names,r,g,b
 #F9C5C2,Peach Whisper,249,197,194
 #F6C4BC,Salmon Bisque,246,196,188
 #E2C7D0,Fragrant Orchid,226,199,208
-#E6C3C8,Sweet Babyâs Breath,230,195,200
+#E6C3C8,Sweet Baby as Breath,230,195,200
 #EBC0C2,Tulip Petal,235,192,194
 #EBBCB3,Spring Linen,235,188,179
 #EEBBBD,Camille Pink,238,187,189
@@ -1601,15 +1601,15 @@ colors,names,r,g,b
 #EDA09F,Antique Coral,237,160,159
 #F39998,Peach Burst,243,153,152
 #F398AF,Flower Girl,243,152,175
-#D4A6AE,Thistle  Field,212,166,174
+#D4A6AE,Thistle Field,212,166,174
 #E59E85,Coral Ridge,229,158,133
 #DC9E95,Salmon Run,220,158,149
 #E7968B,Salmon Rose,231,150,139
 #DD9C9B,Juicy Peach,221,156,155
-#DA99A2,Nanaâs Rose,218,153,162
+#DA99A2,Nana as Rose,218,153,162
 #D09D8A,Princess Peach,208,157,138
 #DD9090,Honeysuckle Rose,221,144,144
-#D19699,Rosetti  Pink,209,150,153
+#D19699,Rosetti Pink,209,150,153
 #E6888F,Poppy Field,230,136,143
 #CD9489,Field of Flowers,205,148,137
 #EA8280,Sweet Melon,234,130,128
@@ -1757,7 +1757,7 @@ colors,names,r,g,b
 #B5BFDA,Over the Moon,181,191,218
 #ABBFDE,Blue Galaxy,171,191,222
 #EBA7C4,Pink Frenzy,235,167,196
-#DFADC4,Dawnâs Reveal,223,173,196
+#DFADC4,Dawn as Reveal,223,173,196
 #C9B2BD,Lindsey Lilac,201,178,189
 #AAB9DD,Ticklish,170,185,221
 #E2A5D1,Pink Plunge,226,165,209
@@ -1862,7 +1862,7 @@ colors,names,r,g,b
 #645D79,Metropolis Lilac,100,93,121
 #735968,Plump Grape,115,89,104
 #7F5967,Vintage Grape,127,89,103
-#794E6C,Magicianâs Cloak,121,78,108
+#794E6C,Magician as Cloak,121,78,108
 #635D6C,Boysenberry Jam,99,93,108
 #6F5668,Purple Cloak,111,86,104
 #6B5462,Raspberry Wine,107,84,98
@@ -1883,7 +1883,6 @@ colors,names,r,g,b
 #54415B,Plum Good,84,65,91
 #5D3A4B,Poetic Purple,93,58,75
 #4D404A,Rare Wine,77,64,74
-colors,names,r,g,b
 #F15D5A,Adventurous,241,93,90
 #614858,Amethyst Smoke,97,72,88
 #FCD8DD,Angelic,252,216,221
@@ -2547,13 +2546,13 @@ colors,names,r,g,b
 #E1D0CC,Beth,225,208,204
 #D7C9C3,Keira,215,201,195
 #DDD4D0,Brighton,221,212,208
-#E2DAD0,Godiva PixieDust Textured,226,218,208
-#E3D4CE,Lux Magical PixieDust Textured,227,212,206
-#E8DCD3,Bar Magical PixieDust Textured,232,220,211
+#E2DAD0,Godiva ,226,218,208
+#E3D4CE,Lux Magical ,227,212,206
+#E8DCD3,Bar Magical ,232,220,211
 #E9E5D7,Tomoko,233,229,215
 #DDD1C6,Jules,221,209,198
 #EADCCF,Nahla,234,220,207
-#D7C8BA,Levi PixieDust Textured,215,200,186
+#D7C8BA,Levi ,215,200,186
 #E8D9C9,Glimmer,232,217,201
 #FCE9DD,Jane,252,233,221
 #FCE6DA,Loretta,252,230,218
@@ -2572,13 +2571,13 @@ colors,names,r,g,b
 #F4B593,Jesy,244,181,147
 #E1A995,Tanzy,225,169,149
 #E6B9A2,Nadia,230,185,162
-#E8AE95,Beatrix PixieDust Textured,232,174,149
+#E8AE95,Beatrix ,232,174,149
 #D3A091,Autumn,211,160,145
 #F6A185,Thandie,246,161,133
 #DD9F8C,Amy,221,159,140
-#E1978D,Destiny PixieDust Textured,225,151,141
+#E1978D,Destiny ,225,151,141
 #CDA19C,Tawny,205,161,156
-#E1988F,Dhara PixieDust Textured,225,152,143
+#E1988F,Dhara ,225,152,143
 #ED978C,Rocha,237,151,140
 #E49A8F,Paz,228,154,143
 #F5A197,Cam,245,161,151
@@ -2597,7 +2596,7 @@ colors,names,r,g,b
 #E3AEB3,Tinsley,227,174,179
 #E6A6B3,Maya,230,166,179
 #E49FB0,Lo,228,159,176
-#D8959F,Linds PixieDust Textured,216,149,159
+#D8959F,Linds ,216,149,159
 #FD93A4,Bisca Neon,253,147,164
 #F6A3B7,Micky,246,163,183
 #F1B2C4,Brandi,241,178,196
@@ -2619,7 +2618,7 @@ colors,names,r,g,b
 #CB83AD,Katy,203,131,173
 #CE83B2,Areej,206,131,178
 #CD86A9,Morgan,205,134,169
-#BB8BA7,Arabella PixieDust Textured,187,139,167
+#BB8BA7,Arabella ,187,139,167
 #DA89B4,Lara,218,137,180
 #EF9ABB,Ellie,239,154,187
 #F29CC1,Dacey,242,156,193
@@ -2631,7 +2630,7 @@ colors,names,r,g,b
 #DF83A2,Yana,223,131,162
 #E28AA6,Mae,226,138,166
 #D891B4,Taryn,216,145,180
-#BF92A0,Miranda PixieDust Textured,191,146,160
+#BF92A0,Miranda ,191,146,160
 #E1ADBC,Maryann,225,173,188
 #D88AA4,Renee,216,138,164
 #E58AA3,Brynn,229,138,163
@@ -2646,7 +2645,7 @@ colors,names,r,g,b
 #E198B1,Azalea,225,152,177
 #E2AABD,Cadence,226,170,189
 #D48AA2,Monroe,212,138,162
-#E2A6B4,Zooey PixieDust Textured,226,166,180
+#E2A6B4,Zooey ,226,166,180
 #E6BAC7,Arielle,230,186,199
 #E1C1C9,Ginni,225,193,201
 #E5B9CA,Jenna,229,185,202
@@ -2715,9 +2714,9 @@ colors,names,r,g,b
 #B18585,Jade,177,133,133
 #B47B83,Elisa,180,123,131
 #AF7779,Courtney,175,119,121
-#B68692,Chyna PixieDust Textured,182,134,146
+#B68692,Chyna ,182,134,146
 #AA868B,Isla,170,134,139
-#B2838B,Oswin Ultra PixieDust Textured,178,131,139
+#B2838B,Oswin Ultra ,178,131,139
 #A87C80,India,168,124,128
 #A07F81,Pepper,160,127,129
 #B3838F,Dakota,179,131,143
@@ -2747,17 +2746,17 @@ colors,names,r,g,b
 #BB93A8,Kendra,187,147,168
 #BA839B,Britta,186,131,155
 #A88594,Blaze,168,133,148
-#A0828A,Arianna Ultra PixieDust Textured,160,130,138
+#A0828A,Arianna Ultra ,160,130,138
 #A3868E,Rachael,163,134,142
 #938885,Elaine,147,136,133
-#A08290,Noir Ultra PixieDust Textured,160,130,144
+#A08290,Noir Ultra ,160,130,144
 #805966,Etta,128,89,102
 #A08C8E,Blair,160,140,142
 #644E54,Sedona,100,78,84
 #92868B,Jem,146,134,139
 #8E8489,Payton,142,132,137
 #9B7E89,Teigen,155,126,137
-#A6879B,Lorna PixieDust Textured,166,135,155
+#A6879B,Lorna ,166,135,155
 #C4A1AA,Joy,196,161,170
 #C4B2B6,Adina,196,178,182
 #B398A3,Katherine,179,152,163
@@ -2766,8 +2765,8 @@ colors,names,r,g,b
 #D2A7C3,Rory,210,167,195
 #AC8CAB,Carly,172,140,171
 #BD9FBC,Dannii,189,159,188
-#C1A7CC,Stevie PixieDust Textured,193,167,204
-#D8BDCF,Arlo Magical PixieDust Textured,216,189,207
+#C1A7CC,Stevie ,193,167,204
+#D8BDCF,Arlo Magical ,216,189,207
 #E2C5DE,Leslie,226,197,222
 #E1C9E7,Haruko,225,201,231
 #CFB9D8,Delia,207,185,216
@@ -2807,7 +2806,7 @@ colors,names,r,g,b
 #AEA0AF,Daul,174,160,175
 #927F96,Giada,146,127,150
 #B0A2B5,Cookie,176,162,181
-#988AA2,Carter PixieDust Textured,152,138,162
+#988AA2,Carter ,152,138,162
 #8A8098,Belinda,138,128,152
 #9685A4,Suri,150,133,164
 #8C799A,Pinta,140,121,154
@@ -2833,7 +2832,7 @@ colors,names,r,g,b
 #BDBBC7,Caitlin,189,187,199
 #A4A9C4,Prim,164,169,196
 #A6A1CC,Serenity,166,161,204
-#A5A4CA,Alice PixieDust Textured,165,164,202
+#A5A4CA,Alice ,165,164,202
 #B2B2D6,Aster,178,178,214
 #75748D,Vesper,117,116,141
 #ADB0CB,Aire,173,176,203
@@ -2842,7 +2841,7 @@ colors,names,r,g,b
 #9C9AA4,Freja,156,154,164
 #AEBBC8,FeiFei,174,187,200
 #C6CDD2,Hazel,198,205,210
-#C3C4D0,Nyx PixieDust Textured,195,196,208
+#C3C4D0,Nyx ,195,196,208
 #CBCDD4,August,203,205,212
 #E2E5F1,Miley,226,229,241
 #D6DFE8,Kristen,214,223,232
@@ -2855,12 +2854,12 @@ colors,names,r,g,b
 #CBDEE2,Amira,203,222,226
 #D4E4F1,Mosheen,212,228,241
 #DAE5ED,Saldana,218,229,237
-#CDD6D8,Vega Magical PixieDust Textured,205,214,216
+#CDD6D8,Vega Magical ,205,214,216
 #A8BBC7,Skylar,168,187,199
 #97CAD8,Rocky,151,202,216
 #93B3C1,Charla,147,179,193
 #88A8B9,Twila,136,168,185
-#869DAD,Liberty PixieDust Textured,134,157,173
+#869DAD,Liberty ,134,157,173
 #A0B8CC,Breezi,160,184,204
 #79B3C7,Oceane,121,179,199
 #B2DDE7,Rayne,178,221,231
@@ -2880,7 +2879,7 @@ colors,names,r,g,b
 #5184B1,Alessia,81,132,177
 #8E97B7,Nori,142,151,183
 #8690A8,Dream,134,144,168
-#8793AF,Waverly PixieDust Textured,135,147,175
+#8793AF,Waverly ,135,147,175
 #8294BB,Estelle,130,148,187
 #8376D5,Mirajane Neon,131,118,213
 #8B93B9,Song,139,147,185
@@ -2907,7 +2906,7 @@ colors,names,r,g,b
 #85C2AC,Ness,133,194,172
 #89A69F,Giovanna,137,166,159
 #A0A89E,Chita,160,168,158
-#80998F,Elphie PixieDust Textured,128,153,143
+#80998F,Elphie ,128,153,143
 #74AF99,Honor MatteVelvet,116,175,153
 #72A79D,Wyatt,114,167,157
 #9CA3A2,Evvie,156,163,162
@@ -2917,7 +2916,7 @@ colors,names,r,g,b
 #919685,Shawn,145,150,133
 #9DA796,Logan,157,167,150
 #97AF9A,Ivanka,151,175,154
-#A1BCA0,Cece PixieDust Textured,161,188,160
+#A1BCA0,Cece ,161,188,160
 #C2CBAB,Meg,194,203,171
 #B5C6A4,Apple,181,198,164
 #98C8A4,Stassi,152,200,164
@@ -2931,7 +2930,7 @@ colors,names,r,g,b
 #C1BDA2,Arbor,193,189,162
 #D2D7B5,Tracie,210,215,181
 #C0CEBF,Rikki,192,206,191
-#CED7C7,Vespa PixieDust Textured,206,215,199
+#CED7C7,Vespa ,206,215,199
 #E3EFDA,Tiana,227,239,218
 #E6EEE0,Neely,230,238,224
 #D6DFD7,Lacey,214,223,215
@@ -2946,7 +2945,7 @@ colors,names,r,g,b
 #D8D0BA,Gal,216,208,186
 #E2D4AB,Ziv,226,212,171
 #F6E6C4,Brooklyn,246,230,196
-#E7D79A,Solange PixieDust Textured,231,215,154
+#E7D79A,Solange ,231,215,154
 #F4E48F,Kerry,244,228,143
 #F5E18E,Pippa,245,225,142
 #F9E78D,Darcy,249,231,141
@@ -3005,19 +3004,19 @@ colors,names,r,g,b
 #D4D4D3,Dove,212,212,211
 #B6BABC,Tove,182,186,188
 #D3D1CE,Harley,211,209,206
-#DDD9D3,Cosmo Magical PixieDust Textured,221,217,211
+#DDD9D3,Cosmo Magical ,221,217,211
 #A29FA3,Jett,162,159,163
-#CAC8CC,Tilly PixieDust Textured,202,200,204
+#CAC8CC,Tilly ,202,200,204
 #B2B3B8,Theo,178,179,184
 #B5B4C1,Devin,181,180,193
 #B7BAB8,Cassedy,183,186,184
-#BDBBB8,London PixieDust Textured,189,187,184
+#BDBBB8,London ,189,187,184
 #B5B5B8,Tao,181,181,184
 #73727E,Tieran,115,114,126
 #707077,Ashton,112,112,119
 #97969B,Genevieve,151,150,155
 #A29F9F,Troy,162,159,159
-#989795,Dahlia PixieDust Textured,152,151,149
+#989795,Dahlia ,152,151,149
 #939C9B,Yuna,147,156,155
 #909595,Tris,144,149,149
 #878A91,Hadley,135,138,145
